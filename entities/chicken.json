@@ -183,6 +183,25 @@
 					}
 				}
 			},
+			"ethelred:lay_egg_lapis": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"single_use": false,
+						"min_wait_time": 1,
+						"max_wait_time": 1,
+						"spawn_item": "minecraft:dye"
+					}
+				},
+				"minecraft:timer": {
+					"looping": false,
+					"randomInterval": false,
+					"time": 1.5,
+					"time_down_event": {
+						"event": "ethelred:laid_egg_lapis",
+						"target": "self"
+					}
+				}
+			},
 			"ethelred:lay_egg_emerald": {
 				"minecraft:spawn_entity": {
 					"entities": {
@@ -388,6 +407,11 @@
 						"weight": 5,
 						"add": {"component_groups": ["ethelred:lay_egg_feather"]},
 						"remove": {"component_groups": ["ethelred:await_egg"]}
+					},
+					{
+						"weight": 3,
+						"add": {"component_groups": ["ethelred:lay_egg_lapis"]},
+						"remove": {"component_groups": ["ethelred:await_egg"]}
 					}
 				]
 			},
@@ -413,6 +437,10 @@
 			},
 			"ethelred:laid_egg_feather": {
 				"remove": {"component_groups": ["ethelred:lay_egg_feather"]},
+				"add": {"component_groups": ["ethelred:await_egg"]}
+			},
+			"ethelred:laid_egg_lapis": {
+				"remove": {"component_groups": ["ethelred:lay_egg_lapis"]},
 				"add": {"component_groups": ["ethelred:await_egg"]}
 			}
 		}
