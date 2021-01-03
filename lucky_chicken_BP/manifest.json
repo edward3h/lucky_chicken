@@ -4,15 +4,11 @@
 		"name": "Lucky Chicken",
 		"description": "Chickens might lay different kinds of 'eggs'",
 		"uuid": "06191a39-4096-4e03-a889-83ae16da534f",
-		"version": [
-			1,
-			0,
-			1
-		],
+		"version": [ 1, 0, 3 ],
 		"min_engine_version": [
 			1,
-			13,
-			0
+			16,
+			200
 		]
 	},
 	"metadata": {
@@ -23,11 +19,7 @@
 		{
 			"type": "data",
 			"uuid": "818eacea-7c36-4238-831e-1fd5d7f79249",
-			"version": [
-				1,
-				0,
-				1
-			]
+			"version": [ 1, 0, 3 ]
 		}
 	]
 }

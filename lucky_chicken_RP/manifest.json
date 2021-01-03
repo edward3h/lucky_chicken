@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Lucky Chicken",
+		"description": "Chickens might lay different kinds of 'eggs'",
+		"uuid": "0c43e371-b21c-401c-9694-f227025d2fa9",
+		"version": [ 1, 0, 3 ],
+		"min_engine_version": [
+			1,
+			16,
+			200
+		]
+	},
+	"metadata": {
+		"authors": ["edward3h"],
+		"url": "https://github.com/edward3h/lucky_chicken"
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "5b108bd4-18a1-44ae-b0aa-a1f6163ab39c",
+			"version": [ 1, 0, 3 ]
+		}
+    ],
+    "dependencies": [
+        {
+            "uuid": "06191a39-4096-4e03-a889-83ae16da534f",
+            "version": [ 1, 0, 3 ]
+        }
+    ]
+}
