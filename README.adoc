@@ -1,0 +1,23 @@
+= Lucky Chicken
+Edward Harman <jaq@ethelred.org>
+v1.0.3, 2021-01-03
+
+This is an addon for Minecraft Bedrock edition. 
+
+== How to Use
+
+Download the `mcpack` files from https://github.com/edward3h/lucky_chicken/releases/latest[the latest release page]. There are two files, for behavior and resource packs.
+
+On most systems Minecraft can now install the packs as soon as you download them or open them. If that doesn't work, check installation instructions at MCPEDL: 
+
+* https://mcpedl.com/how-to-install-minecraft-pe-mods-for-android/[Android] 
+* https://mcpedl.com/how-to-install-minecraft-pe-mods-for-ios/[iOs] 
+* https://mcpedl.com/how-to-install-addons-for-windows-10/[Windows 10]
+
+Create a world in Minecraft and make sure you add both the behavior pack and the resource pack.
+
+== Lucky Chickens
+With this addon, most chickens will occasionally drop random valuable items instead of eggs.
+
+== Angry Chickens
+However, a few chickens will be irrationally angry: they won't make any drops, and will attack players or certain mobs. Look out for their glowing red eyes.
